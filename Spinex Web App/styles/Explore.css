@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.explore-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+justify-content: center; */
+    min-height: 100vh; /* Allows content to expand */
+    text-align: center;
+    color: white;
+    width: 100%;
+    background: transparent; /* Inherit from body */
+}
+
+  /* Navbar Styling */
+  .explore-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #3f37c9;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .explore-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .profile-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Module Cards Container */
+  .modules-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  /* Individual Module Cards */
+  .module-card {
+    width: 500px;
+    height: 220px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .module-card h2 {
+    color: #7209B7;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .module-card p {
+    font-size: 18px;
+    color: #630865;
+    margin-bottom: 15px;
+  }
+  
+  /* File Input Styling */
+  .file-input {
+    width: 100%;
+    padding: 8px;
+    border: 2px dashed #3f72af;
+    border-radius: 8px;
+    background: #f9f9f9;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .file-input:hover {
+    background: #e3f2fd;
+    border-color: #1e6091;
+  }
+  

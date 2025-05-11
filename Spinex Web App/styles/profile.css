@@ -1,0 +1,125 @@
+/* Profile Page Container */
+/* Profile Page Container */
+.profile-container {
+  margin-top: 5vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin-bottom: 5vh;
+}
+
+/* Heading Styling */
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px; /* Add some spacing under the title */
+  text-align: center; /* Centers the title horizontally */
+}
+
+/* X-ray Display Section */
+.xray-display {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /*
+Evenly spaced grid */
+  gap: 20px; /* Increased spacing between cards */
+  margin-bottom: 40px;
+  align-items: flex-start;
+  width: 100%; /* Ensure the grid takes full width */
+  justify-content: center; /* Centers the content in the grid */
+  max-width: 1200px; /* Limit the width for better aesthetics */
+  align-items: center;
+  display: flex;
+}
+
+/* Card Styling */
+.card {
+  background-color: #e3f2fd; /* Light blue background for each card */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  color: #333; /* Dark text for readability */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image inside Card */
+.xray-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+/* Card Content */
+.card-content {
+  text-align: left;
+}
+
+.card-content p {
+  margin-bottom: 12px; /* Increased margin for better spacing */
+  color: #333; /* Dark text for better readability */
+}
+
+/* Graph Section */
+.graph-container {
+  background-color: #bbdefb; /* Slightly darker blue background for
+the graph section */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Graph Heading */
+.graph-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #333; /* Dark text for better readability */
+}
+
+/* Recommendation Section */
+.recommendation-container {
+  background-color: #c5cae9; /* Soft blue background for the
+recommendation section */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  color: #333; /* Dark text for better readability */
+  width: 100%;
+  max-width: 1200px;
+  p {
+    color: bloack;
+  }
+}
+
+/* Recommendation Heading */
+.recommendation-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #333; /* Dark text for better readability */
+}
+.rec {
+  color: #333;
+}
+.profile-container h2 {
+  margin-left: 500px;
+}
