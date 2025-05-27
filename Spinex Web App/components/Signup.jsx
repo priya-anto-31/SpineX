@@ -7,13 +7,13 @@ import "../styles/LoginStyle.css";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAUwegjyF5ks0Mk5gFRo9REWpk2K7bwf14",
-  authDomain: "spinex-5dc42.firebaseapp.com",
-  databaseURL: "https://spinex-5dc42-default-rtdb.firebaseio.com",
-  projectId: "spinex-5dc42",
-  storageBucket: "spinex-5dc42.appspot.com",
-  messagingSenderId: "532620761987",
-  appId: "1:532620761987:web:0691dd2b1342dbeb89f4b6",
+  apiKey: process.env.FIREBASE_API_KEY,
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.FIREBASE_DATABASE_URL,
+  projectId: process.env.FIREBASE_PROJECT_ID,
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
